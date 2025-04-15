@@ -9,6 +9,14 @@ on:
       - main
 
       - jenk
+      
+  pull_request:
+  
+    types:
+    
+      - opened
+      
+      - synchronize
 
   workflow_dispatch:
 
